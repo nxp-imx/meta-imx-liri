@@ -1,0 +1,13 @@
+--- CMakeLists.txt_org	2018-07-10 13:19:00.279216242 -0500
++++ CMakeLists.txt	2018-07-10 13:20:18.000000000 -0500
+@@ -64,10 +64,6 @@
+ add_definitions(-DTRANSLATION_DOMAIN=\"kservice5\")
+ if (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/po")
+     ki18n_install(po)
+-
+-    if (KF5DocTools_FOUND)
+-        kdoctools_install(po)
+-    endif()
+ endif()
+ 
+ if (KF5DocTools_FOUND)
