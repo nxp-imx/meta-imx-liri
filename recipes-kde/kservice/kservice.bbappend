@@ -1,0 +1,4 @@
+
+DEPENDS_append = " \
+    kdoctools \
+"
