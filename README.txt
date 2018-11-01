@@ -18,13 +18,16 @@ Download the BSP Yocto Project Environment
 
 $: mkdir imx-yocto-bsp
 $: cd imx-yocto-bsp
-$: repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linux-rocko -m liri-desktop.xml
+$: repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linux-sumo -m imx-4.14.62-1.0.0_beta_liridesktop.xml
 $: repo sync
 
 Setup and Build for XWayland
 
 This example uses imx8qmmek MACHINE as example but you can build any mx8 machine
 $: MACHINE=imx8qmmek DISTRO=fsl-imx-xwayland source ./fsl-setup-release.sh -b build-liri
+
+Hook in liridesktop layers
+$: source ../sources/meta-imx-liri/tools/hook-in-liri.sh
 
 Image to build liri desktop:
 $: bitbake lirios-image
