@@ -4,4 +4,5 @@ RDEPENDS_${PN}_remove = " \
     ttf-opensans \
     otf-noto \
     networkmanager \
+    dconf \
 "
