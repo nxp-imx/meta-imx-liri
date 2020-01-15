@@ -18,7 +18,7 @@ Download the BSP Yocto Project Environment
 
 $: mkdir imx-yocto-bsp
 $: cd imx-yocto-bsp
-$: repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linux-sumo -m imx-4.14.78-1.0.0_demo_liridesktop.xml
+$: repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linux-warrior -m imx-4.19.35-1.1.0_demo_liridesktop.xml
 $: repo sync
 
 Setup and Build for XWayland
