@@ -1,4 +1,4 @@
-
+LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=b97a012949927931feb7793eee5ed924"
 pkg_postinst_${PN} () {
 }
 
