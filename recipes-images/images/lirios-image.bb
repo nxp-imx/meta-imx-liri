@@ -45,4 +45,7 @@ IMAGE_INSTALL += " \
     ${@bb.utils.contains("DISTRO_FEATURES", "gstreamer010", "packagegroup-b2qt-embedded-gstreamer010", "", d)} \
     ${@bb.utils.contains("DISTRO_FEATURES", "gstreamer", "packagegroup-b2qt-embedded-gstreamer", "", d)} \
     packagegroup-qt5 \
+    sddm \
+    sddm-morona-autologin \
+    unpriv-user \
 "
