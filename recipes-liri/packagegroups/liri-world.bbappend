@@ -7,4 +7,7 @@ RDEPENDS_${PN}_remove = " \
     liri-themes-plymouth \
     liri-themes-sddm \
 	liri-player \
+    liri-materialdecoration \
+    liri-networkmanager \
+    liri-pulseaudio \
 "
