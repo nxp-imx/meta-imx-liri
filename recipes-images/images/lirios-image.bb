@@ -25,7 +25,7 @@ DESCRIPTION = "Liri OS"
 LICENSE = "LICENSE.GPLv3"
 PR = "r0"
 
-require recipes-fsl/images/fsl-image-validation-imx.bb
+require dynamic-layers/qt5-layer/recipes-fsl/images/imx-image-full.bb
 
 DEPLOY_CONF_TYPE = "LiriOS"
 
