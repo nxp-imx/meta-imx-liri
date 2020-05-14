@@ -8,6 +8,4 @@ do_install_append () {
     ln -sf ${systemd_unitdir}/system/sddm.service \
             ${D}${sysconfdir}/systemd/system/multi-user.target.wants/sddm.service
 }
-RDEPENDS_${PN}_remove = " 
-    packagegroup-core-x11-xserver \
-"
+RDEPENDS_${PN}_remove = "packagegroup-core-x11-xserver"
