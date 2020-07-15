@@ -18,7 +18,7 @@ Download the BSP Yocto Project Environment
 
 $: mkdir imx-yocto-bsp
 $: cd imx-yocto-bsp
-$: repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linux-warrior -m imx-4.19.35-1.1.0_demo_liridesktop.xml
+$: repo init -u https://source.codeaurora.org/external/imx/imx-manifest -b imx-linux-zeus -m imx-5.4.24-2.1.0_liridesktop.xml
 $: repo sync
 
 Setup and Build for XWayland
@@ -31,11 +31,3 @@ $: source ../sources/meta-imx-liri/tools/hook-in-liri.sh
 
 Image to build liri desktop:
 $: bitbake lirios-image
-
-Command to bring up liri desktop after boot :
-$ liri-session -platform wayland
-
-Known issues:
-
-- Does not work well with systemd. Use the above command to bring up liri desktop until
-  the issue is fixed.
